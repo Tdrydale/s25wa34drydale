@@ -1,9 +1,12 @@
 var express = require('express');
 var router = express.Router();
+var radio = 0.75;
+var acc = 1000;
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+  acc = radio * acc;
+  res.send('Value is:' + acc);
 });
 
 module.exports = router;
