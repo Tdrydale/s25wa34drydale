@@ -21,5 +21,13 @@
   ],
   "author": "Tylan Drydale",
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tdrydale/s25wa34drydale.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tdrydale/s25wa34drydale/issues"
+  },
+  "homepage": "https://github.com/Tdrydale/s25wa34drydale#readme"
 }
